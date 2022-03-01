@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="current_employee" table="x_738894_itechu_as_employee" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>current_employee</element>
+            <name>x_738894_itechu_as_employee</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-01 15:42:08</sys_created_on>
+            <sys_id>57619f182f420110bc2faa5df699b67b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>current_employee</sys_name>
+            <sys_package display_value="ItechU assesment" source="x_738894_itechu_as">65e60f1c2f020110bc2faa5df699b630</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ItechU assesment">65e60f1c2f020110bc2faa5df699b630</sys_scope>
+            <sys_update_name>sys_choice_x_738894_itechu_as_employee_current_employee</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-01 15:42:08</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>current_employee</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>-- New choice --</label>
+            <language>en</language>
+            <name>x_738894_itechu_as_employee</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-01 15:42:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>db619f182f420110bc2faa5df699b67a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-01 15:42:08</sys_updated_on>
+            <value>-- New choice --</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Employee" max_length="40" name="x_738894_itechu_as_employee" type="collection">
+        <element choice="1" label="Current Employee" max_length="40" name="current_employee" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
+            </choice>
+        </element>
+        <element display="true" label="EmployeeID" max_length="40" name="employeeid" type="string"/>
+        <element label="End date" max_length="40" name="end_date" type="glide_date"/>
+        <element choice="1" label="Position" max_length="40" name="position" type="choice">
+            <choice/>
+        </element>
+    </element>
+</database>
