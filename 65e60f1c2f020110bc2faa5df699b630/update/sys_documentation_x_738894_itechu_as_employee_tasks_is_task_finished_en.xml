@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="is_task_finished" label="Is Task finished?" language="en" table="x_738894_itechu_as_employee_tasks">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>is_task_finished</element>
+            <help/>
+            <hint/>
+            <label>Is Task finished?</label>
+            <language>en</language>
+            <name>x_738894_itechu_as_employee_tasks</name>
+            <plural>Is Task finished?s</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-02 14:45:05</sys_created_on>
+            <sys_id>d9fd08b42f024110bc2faa5df699b634</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Is Task finished?</sys_name>
+            <sys_package display_value="ItechU assesment" source="x_738894_itechu_as">65e60f1c2f020110bc2faa5df699b630</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ItechU assesment">65e60f1c2f020110bc2faa5df699b630</sys_scope>
+            <sys_update_name>sys_documentation_x_738894_itechu_as_employee_tasks_is_task_finished_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-02 14:45:05</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

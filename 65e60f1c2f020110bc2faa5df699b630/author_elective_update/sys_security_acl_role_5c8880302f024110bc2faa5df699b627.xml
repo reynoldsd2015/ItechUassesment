@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-02 14:23:26</sys_created_on>
+        <sys_id>5c8880302f024110bc2faa5df699b627</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.HR</sys_name>
+        <sys_package display_value="ItechU assesment" source="x_738894_itechu_as">65e60f1c2f020110bc2faa5df699b630</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ItechU assesment">65e60f1c2f020110bc2faa5df699b630</sys_scope>
+        <sys_security_acl display_value="">6378c8702f024110bc2faa5df699b687</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_5c8880302f024110bc2faa5df699b627</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-02 14:23:26</sys_updated_on>
+        <sys_user_role display_value="HR" name="HR">f9493a942f020110bc2faa5df699b62c</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ItechU assesment">65e60f1c2f020110bc2faa5df699b630</application>
+        <file_path/>
+        <instance_id>80bbc911dba37bc04d2bac44d496194c</instance_id>
+        <instance_name>dev92589</instance_name>
+        <name>sys_security_acl_role_5c8880302f024110bc2faa5df699b627</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-03-02 14:23:26</sys_created_on><sys_id>5c8880302f024110bc2faa5df699b627</sys_id><sys_mod_count>0</sys_mod_count><sys_name>.HR</sys_name><sys_package display_value="ItechU assesment" source="x_738894_itechu_as">65e60f1c2f020110bc2faa5df699b630</sys_package><sys_policy/><sys_scope display_value="ItechU assesment">65e60f1c2f020110bc2faa5df699b630</sys_scope><sys_security_acl display_value="">6378c8702f024110bc2faa5df699b687</sys_security_acl><sys_update_name>sys_security_acl_role_5c8880302f024110bc2faa5df699b627</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-03-02 14:23:26</sys_updated_on><sys_user_role display_value="HR" name="HR">f9493a942f020110bc2faa5df699b62c</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-212270761</payload_hash>
+        <record_name>.HR</record_name>
+        <reverted_from/>
+        <source>b3d0086c2fc20110bc2faa5df699b6f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-02 14:23:26</sys_created_on>
+        <sys_id>900908702f024110bc2faa5df699b628</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f4b03adcd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-02 14:23:26</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>d8090870870241104f3e8746b4436527</update_guid>
+        <update_guid_history>d8090870870241104f3e8746b4436527:-212270761</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value=".HR">9abac8f02f024110bc2faa5df699b69d</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-02 14:30:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>3972e515bb9c41aa9fbe96e7c3cac2d1</sys_id>
+        <sys_metadata>5c8880302f024110bc2faa5df699b627</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.HR</sys_name>
+        <sys_package display_value="ItechU assesment" source="x_738894_itechu_as">65e60f1c2f020110bc2faa5df699b630</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ItechU assesment">65e60f1c2f020110bc2faa5df699b630</sys_scope>
+        <sys_scope_delete display_value="">8b59de1cd79a4fb193928dddcf394511</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_5c8880302f024110bc2faa5df699b627</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_5c8880302f024110bc2faa5df699b627">900908702f024110bc2faa5df699b628</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-02 14:30:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

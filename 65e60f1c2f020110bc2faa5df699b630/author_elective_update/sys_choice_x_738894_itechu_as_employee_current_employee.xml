@@ -21,7 +21,27 @@
             <element>current_employee</element>
             <hint/>
             <inactive>false</inactive>
-            <label>-- New choice --</label>
+            <label>no</label>
+            <language>en</language>
+            <name>x_738894_itechu_as_employee</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-02 13:38:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>10ce3f682fce0110bc2faa5df699b61a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-02 13:38:48</sys_updated_on>
+            <value>no</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>current_employee</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>yes</label>
             <language>en</language>
             <name>x_738894_itechu_as_employee</name>
             <sequence/>
@@ -31,10 +51,10 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>db619f182f420110bc2faa5df699b67a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-03-01 15:42:08</sys_updated_on>
-            <value>-- New choice --</value>
+            <sys_updated_on>2022-03-02 13:37:25</sys_updated_on>
+            <value>yes</value>
         </sys_choice>
     </sys_choice>
 </record_update>

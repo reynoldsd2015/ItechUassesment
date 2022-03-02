@@ -1,14 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Employee" max_length="40" name="x_738894_itechu_as_employee" type="collection">
-        <element choice="1" label="Current Employee" max_length="40" name="current_employee" type="choice">
+    <element label="Employee" max_length="40" name="x_738894_itechu_as_employee" sizeclass="0" type="collection">
+        <element choice="1" default="yes &#13;&#10;no" label="Current Employee" max_length="40" name="current_employee" type="choice">
             <choice>
-                <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
+                <element inactive_on_update="false" label="no" value="no"/>
+                <element inactive_on_update="false" label="yes" value="yes"/>
             </choice>
         </element>
-        <element display="true" label="EmployeeID" max_length="40" name="employeeid" type="string"/>
+        <element label="Email" max_length="40" name="email" type="string"/>
         <element label="End date" max_length="40" name="end_date" type="glide_date"/>
-        <element choice="1" label="Position" max_length="40" name="position" type="choice">
-            <choice/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="EmployeeID" max_length="40" name="number" type="string"/>
+        <element choice="3" label="Position" max_length="40" name="position" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Analyst" value="Analyst"/>
+                <element inactive_on_update="false" label="Consultant" value="Consultant"/>
+                <element inactive_on_update="false" label="Developer" value="Developer"/>
+                <element inactive_on_update="false" label="Human Resource Rep" value="Human Resource Rep"/>
+            </choice>
         </element>
     </element>
 </database>

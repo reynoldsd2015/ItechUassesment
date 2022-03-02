@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="position" table="x_738894_itechu_as_employee" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>position</element>
+            <name>x_738894_itechu_as_employee</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-02 13:40:54</sys_created_on>
+            <sys_id>154fbbe42fce0110bc2faa5df699b6e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>position</sys_name>
+            <sys_package display_value="ItechU assesment" source="x_738894_itechu_as">65e60f1c2f020110bc2faa5df699b630</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ItechU assesment">65e60f1c2f020110bc2faa5df699b630</sys_scope>
+            <sys_update_name>sys_choice_x_738894_itechu_as_employee_position</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-02 13:40:54</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>position</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Analyst</label>
+            <language>en</language>
+            <name>x_738894_itechu_as_employee</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-02 13:41:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b95f3fe42fce0110bc2faa5df699b689</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-02 13:41:31</sys_updated_on>
+            <value>Analyst</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>position</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Consultant</label>
+            <language>en</language>
+            <name>x_738894_itechu_as_employee</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-02 13:42:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7e7fffa42fce0110bc2faa5df699b677</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-02 13:42:10</sys_updated_on>
+            <value>Consultant</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>position</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Developer</label>
+            <language>en</language>
+            <name>x_738894_itechu_as_employee</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-02 13:40:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0e2f7f682fce0110bc2faa5df699b69d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-02 13:40:54</sys_updated_on>
+            <value>Developer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>position</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Human Resource Rep</label>
+            <language>en</language>
+            <name>x_738894_itechu_as_employee</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-02 13:42:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e79f7fa82fce0110bc2faa5df699b679</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-02 13:42:47</sys_updated_on>
+            <value>Human Resource Rep</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
