@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>employee</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Populate Position</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+	var employee = g_form.getReference(newValue,callback);
+	function callback(employee){
+	//	g_form.addInfoMessage(employee.position.toString());
+		g_form.addInfoMessage('Test');
+	}
+	
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-04 17:23:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6a3243d92f02c110bc2faa5df699b647</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Populate Position</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ItechU assesment" source="x_738894_itechu_as">65e60f1c2f020110bc2faa5df699b630</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ItechU assesment">65e60f1c2f020110bc2faa5df699b630</sys_scope>
+        <sys_update_name>sys_script_client_6a3243d92f02c110bc2faa5df699b647</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-04 17:30:32</sys_updated_on>
+        <table>x_738894_itechu_as_employee_tasks</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

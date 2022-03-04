@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Employee Payroll" max_length="40" name="x_738894_itechu_as_employee_payroll" type="collection">
+        <element label="Annual Salary" max_length="40" name="annual_salary" type="currency"/>
+        <element label="EmployeeID" max_length="40" name="employeeid" type="string"/>
+        <element label="First Name" max_length="40" name="first_name" read_only="true" type="string"/>
+        <element label="Gross Income Per Paycheck" max_length="40" name="gross_income_per_paycheck" type="currency"/>
+        <element label="Last Name" max_length="40" name="last_name" read_only="true" type="string"/>
+        <element label="Paycheck Amount after Taxes" max_length="40" name="paycheck_amount_after_taxes" type="currency"/>
+        <element label="YTD Income" mandatory="true" max_length="40" name="ytd_income" type="currency"/>
+    </element>
+</database>

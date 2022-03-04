@@ -12,8 +12,8 @@
         <element label="First Name2" mandatory="true" max_length="40" name="first_name2" type="string"/>
         <element label="Last Name2" mandatory="true" max_length="40" name="last_name2" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="EmployeeID" max_length="40" name="number" type="string"/>
-        <element label="Phonumber2" mandatory="true" max_length="40" name="phonumber2" type="string"/>
-        <element choice="3" default="Analyst" label="Position" max_length="40" name="position" type="choice">
+        <element label="Phone Number" mandatory="true" max_length="40" name="phonumber2" type="string"/>
+        <element choice="3" label="Position" max_length="40" name="position" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Analyst" value="Analyst"/>
                 <element inactive_on_update="false" label="Consultant" value="Consultant"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="Employee Tasks" max_length="40" name="x_738894_itechu_as_employee_tasks" sizeclass="0" type="collection">
-        <element display="true" label="EmployeeID" max_length="40" name="employee" reference="x_738894_itechu_as_employee" type="string"/>
+        <element display="true" label="EmployeeID" max_length="40" name="employee" reference="x_738894_itechu_as_employee" type="reference"/>
         <element label="Employee Position" mandatory="true" max_length="40" name="employee_position" read_only="true" type="string"/>
         <element label="External Project Name" max_length="40" name="external_project_name" type="string"/>
         <element label="Is Task finished?" max_length="40" name="is_task_finished" type="boolean"/>

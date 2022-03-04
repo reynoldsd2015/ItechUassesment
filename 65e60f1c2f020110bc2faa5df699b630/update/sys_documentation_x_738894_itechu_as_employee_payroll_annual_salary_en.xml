@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="phonumber2" label="Phone Number" language="en" table="x_738894_itechu_as_employee">
+    <sys_documentation element="annual_salary" label="Annual Salary" language="en" table="x_738894_itechu_as_employee_payroll">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>phonumber2</element>
+            <element>annual_salary</element>
             <help/>
             <hint/>
-            <label>Phone Number</label>
+            <label>Annual Salary</label>
             <language>en</language>
-            <name>x_738894_itechu_as_employee</name>
-            <plural>Phone Numbers</plural>
+            <name>x_738894_itechu_as_employee_payroll</name>
+            <plural>Annual Salaries</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-03-04 12:57:01</sys_created_on>
-            <sys_id>b568c61d2f4e8110bc2faa5df699b68c</sys_id>
-            <sys_mod_count>2</sys_mod_count>
-            <sys_name>Phone Number</sys_name>
+            <sys_created_on>2022-03-04 15:43:45</sys_created_on>
+            <sys_id>549ee6d92fce8110bc2faa5df699b64d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Annual Salary</sys_name>
             <sys_package display_value="ItechU assesment" source="x_738894_itechu_as">65e60f1c2f020110bc2faa5df699b630</sys_package>
             <sys_policy/>
             <sys_scope display_value="ItechU assesment">65e60f1c2f020110bc2faa5df699b630</sys_scope>
-            <sys_update_name>sys_documentation_x_738894_itechu_as_employee_phonumber2_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_738894_itechu_as_employee_payroll_annual_salary_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-03-04 17:08:02</sys_updated_on>
+            <sys_updated_on>2022-03-04 15:43:45</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
