@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Employee Tasks" max_length="40" name="x_738894_itechu_as_employee_tasks" type="collection">
+    <element label="Employee Tasks" max_length="40" name="x_738894_itechu_as_employee_tasks" sizeclass="0" type="collection">
         <element display="true" label="EmployeeID" max_length="40" name="employee" reference="x_738894_itechu_as_employee" type="string"/>
-        <element label="Employee Position" max_length="40" name="employee_position" read_only="true" type="string"/>
+        <element label="Employee Position" mandatory="true" max_length="40" name="employee_position" read_only="true" type="string"/>
         <element label="External Project Name" max_length="40" name="external_project_name" type="string"/>
         <element label="Is Task finished?" max_length="40" name="is_task_finished" type="boolean"/>
         <element label="Meeting/Presentation Attendees" max_length="40" name="meeting_presentation_attendees" type="string"/>
@@ -9,12 +9,12 @@
         <element label="Meeting/Presentation Subject" max_length="40" name="meeting_presentation_subject" type="string"/>
         <element label="Task End Date" max_length="40" name="task_end_date" type="glide_date"/>
         <element label="Task Start Date" max_length="40" name="task_start_date" type="glide_date"/>
-        <element choice="3" label="Task Type" max_length="40" name="task_type" type="string">
+        <element choice="1" label="Task Type" max_length="40" name="task_type" type="choice">
             <choice>
-                <element inactive_on_update="false" label="External Project"/>
-                <element inactive_on_update="false" label="Internal Work"/>
-                <element inactive_on_update="false" label="Meeting/Presentation"/>
-                <element inactive_on_update="false" label="Training" value="Training"/>
+                <element inactive_on_update="false" label="External Project" sequence="0" value="external project"/>
+                <element inactive_on_update="false" label="Training" sequence="1" value="Training"/>
+                <element inactive_on_update="false" label="Meeting/Presentation" sequence="2" value="meeting"/>
+                <element inactive_on_update="false" label="External Project" sequence="3" value="external"/>
             </choice>
         </element>
     </element>

@@ -24,57 +24,17 @@
             <label>External Project</label>
             <language>en</language>
             <name>x_738894_itechu_as_employee_tasks</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-03-02 14:47:59</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>709e48b42f024110bc2faa5df699b653</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-03-02 14:47:59</sys_updated_on>
-            <value/>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>task_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Internal Work</label>
-            <language>en</language>
-            <name>x_738894_itechu_as_employee_tasks</name>
-            <sequence/>
+            <sequence>0</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-03-02 14:48:48</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>44ae00f42f024110bc2faa5df699b6c0</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>7</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-03-02 14:48:48</sys_updated_on>
-            <value/>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>task_type</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Meeting/Presentation</label>
-            <language>en</language>
-            <name>x_738894_itechu_as_employee_tasks</name>
-            <sequence/>
-            <synonyms/>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2022-03-02 14:49:00</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>48deccb42f024110bc2faa5df699b6ad</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-03-02 14:49:00</sys_updated_on>
-            <value/>
+            <sys_updated_on>2022-03-04 14:07:10</sys_updated_on>
+            <value>external project</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -84,17 +44,57 @@
             <label>Training</label>
             <language>en</language>
             <name>x_738894_itechu_as_employee_tasks</name>
-            <sequence/>
+            <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-03-02 14:47:31</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>116e00f42f024110bc2faa5df699b6ad</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>5</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2022-03-02 14:47:31</sys_updated_on>
+            <sys_updated_on>2022-03-04 14:04:48</sys_updated_on>
             <value>Training</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>task_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Meeting/Presentation</label>
+            <language>en</language>
+            <name>x_738894_itechu_as_employee_tasks</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-02 14:49:00</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>48deccb42f024110bc2faa5df699b6ad</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-04 14:07:02</sys_updated_on>
+            <value>meeting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>task_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>External Project</label>
+            <language>en</language>
+            <name>x_738894_itechu_as_employee_tasks</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-03-02 14:47:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>709e48b42f024110bc2faa5df699b653</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-03-04 14:06:59</sys_updated_on>
+            <value>external</value>
         </sys_choice>
     </sys_choice>
 </record_update>
