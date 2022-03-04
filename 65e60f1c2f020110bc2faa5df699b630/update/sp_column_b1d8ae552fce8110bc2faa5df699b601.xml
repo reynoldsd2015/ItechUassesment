@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="INSERT_OR_UPDATE">
+        <class_name/>
+        <order>1</order>
+        <size>6</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">b1d86e552fce8110bc2faa5df699b6ff</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-04 15:18:44</sys_created_on>
+        <sys_id>b1d8ae552fce8110bc2faa5df699b601</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="ItechU assesment" source="x_738894_itechu_as">65e60f1c2f020110bc2faa5df699b630</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ItechU assesment">65e60f1c2f020110bc2faa5df699b630</sys_scope>
+        <sys_update_name>sp_column_b1d8ae552fce8110bc2faa5df699b601</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-04 15:18:44</sys_updated_on>
+    </sp_column>
+</record_update>

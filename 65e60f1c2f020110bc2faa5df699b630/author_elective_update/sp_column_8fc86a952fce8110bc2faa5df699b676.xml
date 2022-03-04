@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column">
+    <sp_column action="DELETE">
+        <class_name/>
+        <order>2</order>
+        <size>6</size>
+        <size_lg/>
+        <size_sm/>
+        <size_xs/>
+        <sp_row display_value="1">03c86a952fce8110bc2faa5df699b673</sp_row>
+        <sys_class_name>sp_column</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-04 15:18:32</sys_created_on>
+        <sys_id>8fc86a952fce8110bc2faa5df699b676</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="ItechU assesment" source="x_738894_itechu_as">65e60f1c2f020110bc2faa5df699b630</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ItechU assesment">65e60f1c2f020110bc2faa5df699b630</sys_scope>
+        <sys_update_name>sp_column_8fc86a952fce8110bc2faa5df699b676</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-04 15:18:32</sys_updated_on>
+    </sp_column>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ItechU assesment">65e60f1c2f020110bc2faa5df699b630</application>
+        <file_path/>
+        <instance_id>80bbc911dba37bc04d2bac44d496194c</instance_id>
+        <instance_name>dev92589</instance_name>
+        <name>sp_column_8fc86a952fce8110bc2faa5df699b676</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_column"><sp_column action="INSERT_OR_UPDATE"><class_name/><order>2</order><size>6</size><size_lg/><size_sm/><size_xs/><sp_row display_value="1">03c86a952fce8110bc2faa5df699b673</sp_row><sys_class_name>sp_column</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-03-04 15:18:32</sys_created_on><sys_id>8fc86a952fce8110bc2faa5df699b676</sys_id><sys_mod_count>0</sys_mod_count><sys_name>2</sys_name><sys_package display_value="ItechU assesment" source="x_738894_itechu_as">65e60f1c2f020110bc2faa5df699b630</sys_package><sys_policy/><sys_scope display_value="ItechU assesment">65e60f1c2f020110bc2faa5df699b630</sys_scope><sys_update_name>sp_column_8fc86a952fce8110bc2faa5df699b676</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-03-04 15:18:32</sys_updated_on></sp_column></record_update>]]></payload>
+        <payload_hash>2039673909</payload_hash>
+        <record_name>2</record_name>
+        <reverted_from/>
+        <source>b3d0086c2fc20110bc2faa5df699b6f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-04 15:18:32</sys_created_on>
+        <sys_id>87c86a952fce8110bc2faa5df699b678</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f5582d83c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-04 15:18:32</sys_updated_on>
+        <type>Column</type>
+        <update_guid>cfc86a9568ce81104931aaefd724d877</update_guid>
+        <update_guid_history>cfc86a9568ce81104931aaefd724d877:2039673909</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="2">3cd86a952fce8110bc2faa5df699b6c1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-04 15:18:39</sys_created_on>
+        <sys_db_object display_value="" name="sp_column">sp_column</sys_db_object>
+        <sys_id>ca76079d610a4476933518b3b114e1c4</sys_id>
+        <sys_metadata>8fc86a952fce8110bc2faa5df699b676</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2</sys_name>
+        <sys_package display_value="ItechU assesment" source="x_738894_itechu_as">65e60f1c2f020110bc2faa5df699b630</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ItechU assesment">65e60f1c2f020110bc2faa5df699b630</sys_scope>
+        <sys_scope_delete display_value="">8b59de1cd79a4fb193928dddcf394511</sys_scope_delete>
+        <sys_update_name>sp_column_8fc86a952fce8110bc2faa5df699b676</sys_update_name>
+        <sys_update_version display_value="sp_column_8fc86a952fce8110bc2faa5df699b676">87c86a952fce8110bc2faa5df699b678</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-04 15:18:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
